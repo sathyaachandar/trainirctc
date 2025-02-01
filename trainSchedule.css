@@ -1,1 +1,67 @@
+/* trainSchedule.css */
+.custom-card {
+    background: #f3f6f9;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.custom-input {
+    --slds-c-input-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    --slds-c-input-radius-border: 25px;
+    --slds-c-input-color-border: #4a90e2;
+}
+
+.custom-button {
+    --slds-c-button-brand-color-background: #4a90e2;
+    --slds-c-button-brand-color-border: #4a90e2;
+    --slds-c-button-brand-color-background-hover: #357abd;
+    --slds-c-button-brand-color-border-hover: #357abd;
+    border-radius: 25px;
+    padding: 0 2rem;
+}
+
+.custom-box {
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+}
+
+.header {
+    color: #2c3e50;
+    font-weight: 700;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+    color: #4a4a4a;
+    transition: all 0.3s ease;
+}
+
+.info-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(74,144,226,0.2);
+}
+
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ffcdd2;
+    font-weight: 500;
+}
